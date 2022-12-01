@@ -52,6 +52,8 @@ namespace CalculTaMoyenne
             int total = resultun + resultdeux + resultquatre + resultcinq + resultsix + resultsept + resulthuit + resultneuf + resultdix + resultonze + resultdouze;
             int nbnote = 11;
             Console.WriteLine("Votre moyenne est de : " + total / nbnote + "/20");
+            Console.WriteLine("Appuyez sur \"Entrez\" pour quittez l'application.");
+            Console.ReadKey();
         }
     }
 }   

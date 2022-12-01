@@ -7,6 +7,11 @@
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;64</Configurations>
     <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>moyenne.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="moyenne.ico" />
+  </ItemGroup>
 
 </Project>
