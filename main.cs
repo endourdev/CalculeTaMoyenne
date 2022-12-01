@@ -50,7 +50,7 @@ namespace CalculTaMoyenne
             string notedouze = Console.ReadLine();
             int resultdouze = int.Parse(notedouze);
             int total = resultun + resultdeux + resultquatre + resultcinq + resultsix + resultsept + resulthuit + resultneuf + resultdix + resultonze + resultdouze;
-            int nbnote = 12;
+            int nbnote = 11;
             Console.WriteLine("Votre moyenne est de : " + total / nbnote + "/20");
         }
     }
